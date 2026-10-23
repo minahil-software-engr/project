@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Annual Computer Science Symposium</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <h1>Annual Computer Science Symposium</h1>
+        <p>Explore Technology, Innovation and the Future of Computing</p>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#register">MINAHIL</a></li>
+
+        </ul>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section 1: About -->
+        <section id="about">
+
+            <h2>About the Symposium</h2>
+
+            <img src="/symposium.png"
+                 alt="Students attending a Computer Science Symposium">
+
+            <p>
+                The Annual Computer Science Symposium is a university event
+                where students, teachers and technology professionals come
+                together to discuss modern trends in computer science.
+            </p>
+
+            <h3>Why Attend?</h3>
+
+            <ol>
+                <li>Learn about modern technologies.</li>
+                <li>Meet students and professionals.</li>
+                <li>Improve your computer science knowledge.</li>
+            </ol>
+
+        </section>
+
+
+        <!-- Section 2: Speakers -->
+        <section id="speakers">
+
+            <h2>Featured Speakers</h2>
+
+            <div class="speaker-container">
+
+                <article class="speaker-card">
+                    <h3>Dr. Ahmed Khan</h3>
+                    <p>Artificial Intelligence Expert</p>
+                </article>
+
+                <article class="speaker-card">
+                    <h3>Ms. Sara Ali</h3>
+                    <p>Software Engineering Specialist</p>
+                </article>
+                
+
+                <article class="speaker-card featured">
+                    <span class="keynote">KEYNOTE</span>
+
+                    <h3>Dr. Usman Raza</h3>
+                    <p>Cybersecurity Researcher</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Section 3: Event Schedule -->
+        <section id="schedule">
+
+            <h2>Event Schedule</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Session</th>
+                        <th>Speaker</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening Ceremony</td>
+                        <td>Dr. Ahmed Khan</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>Artificial Intelligence</td>
+                        <td>Ms. Sara Ali</td>
+                    </tr>
+
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Cybersecurity Trends</td>
+                        <td>Dr. Usman Raza</td>
+                    </tr>
+
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Lunch Break</td>
+                        <td>---</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- Section 4: Registration -->
+        <section id="register">
+
+            <h2>Student Registration</h2>
+
+            <form action="#" method="post">
+
+                <!-- Name -->
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+
+                <!-- Email -->
+                <label for="email">University Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="student@university.edu"
+                    pattern="[a-zA-Z0-9._%+-]+@university\.edu"
+                    required
+                >
+
+
+                <!-- Age -->
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    min="16"
+                    max="60"
+                    required
+                >
+
+
+                <!-- Semester -->
+                <label for="semester">Semester:</label>
+
+                <select id="semester" name="semester" required>
+
+                    <option value="">Select Semester</option>
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                    <option value="5">Semester 5</option>
+                    <option value="6">Semester 6</option>
+                    <option value="7">Semester 7</option>
+                    <option value="8">Semester 8</option>
+
+                </select>
+
+
+                <!-- Reason -->
+                <label for="reason">
+                    Why do you want to attend?
+                </label>
+
+                <textarea
+                    id="reason"
+                    name="reason"
+                    rows="5"
+                    placeholder="Write your reason here..."
+                    required>
+                </textarea>
+
+
+                <!-- Submit -->
+                <button type="submit">Register Now</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Annual Computer Science Symposium. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
